@@ -1,0 +1,121 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 50px;
+}
+  
+  .input-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  .input-section input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+
+  }
+  
+  .add-btn {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    
+  }
+  
+  
+  .add-btn:hover {
+    background-color: #007acc;
+  }
+  
+  table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-bottom: 1 solid #ddd;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  .edit-btn{
+    background-color: #00bfff;
+    border: 1px solid #ccc;
+    padding: 5px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  .delete-btn {
+    background-color: red;
+    border: 1px solid #ccc;
+    padding: 5px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  .edit-btn i {
+    color: white;
+  }
+  
+  .delete-btn i {
+    color: white;
+  }
+  
+  .edit-btn:hover i {
+    color: #007acc;
+  }
+  
+  .delete-btn:hover i {
+    color: #cc0000;
+  }
+ 
+  

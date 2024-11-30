@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo List</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        .strike-through {
+            text-decoration: line-through;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header id="main-header" class="bg-warning text-white p-4 mb-3">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 id="header-title">Todo List</h1>
+  
+          </div>
+        </div>
+      </header>
+      
+      <!-- Input section -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" id="inputfield" placeholder="Enter Your Task">
+            <button type="button" class="btn btn-primary" id="addToDo">
+          Add Task
+            </button>
+          </div>
+          <div id="error-Message" class="text-danger"></div> <!-- Error message display -->
+        </div>
+      </div>
+
+      <!-- To-Do Container -->
+      <div class="container">
+        <!-- Table to show the result -->
+        <table class="table mt-4">
+            <thead>
+                <tr>
+                    <th>SN</th>
+                    <th>Task</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Todo.js"></script>
+  </body>
+</html>
